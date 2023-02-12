@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29CA758B299888C400A62ED4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA758A299888C400A62ED4 /* AppDelegate.m */; };
+		29CA758E299888C400A62ED4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA758D299888C400A62ED4 /* SceneDelegate.m */; };
+		29CA7591299888C500A62ED4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA7590299888C500A62ED4 /* ViewController.m */; };
+		29CA7594299888C500A62ED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CA7592299888C500A62ED4 /* Main.storyboard */; };
+		29CA7596299888C600A62ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29CA7595299888C600A62ED4 /* Assets.xcassets */; };
+		29CA7599299888C600A62ED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CA7597299888C600A62ED4 /* LaunchScreen.storyboard */; };
+		29CA759C299888C600A62ED4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA759B299888C600A62ED4 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29CA7586299888C400A62ED4 /* 自动化重签名.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自动化重签名.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CA7589299888C400A62ED4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29CA758A299888C400A62ED4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29CA758C299888C400A62ED4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		29CA758D299888C400A62ED4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		29CA758F299888C500A62ED4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29CA7590299888C500A62ED4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29CA7593299888C500A62ED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29CA7595299888C600A62ED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29CA7598299888C600A62ED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29CA759A299888C600A62ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29CA759B299888C600A62ED4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29CA7583299888C400A62ED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29CA757D299888C400A62ED4 = {
+			isa = PBXGroup;
+			children = (
+				29CA7588299888C400A62ED4 /* 自动化重签名 */,
+				29CA7587299888C400A62ED4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29CA7587299888C400A62ED4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29CA7586299888C400A62ED4 /* 自动化重签名.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29CA7588299888C400A62ED4 /* 自动化重签名 */ = {
+			isa = PBXGroup;
+			children = (
+				29CA7589299888C400A62ED4 /* AppDelegate.h */,
+				29CA758A299888C400A62ED4 /* AppDelegate.m */,
+				29CA758C299888C400A62ED4 /* SceneDelegate.h */,
+				29CA758D299888C400A62ED4 /* SceneDelegate.m */,
+				29CA758F299888C500A62ED4 /* ViewController.h */,
+				29CA7590299888C500A62ED4 /* ViewController.m */,
+				29CA7592299888C500A62ED4 /* Main.storyboard */,
+				29CA7595299888C600A62ED4 /* Assets.xcassets */,
+				29CA7597299888C600A62ED4 /* LaunchScreen.storyboard */,
+				29CA759A299888C600A62ED4 /* Info.plist */,
+				29CA759B299888C600A62ED4 /* main.m */,
+			);
+			path = "自动化重签名";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29CA7585299888C400A62ED4 /* 自动化重签名 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29CA759F299888C600A62ED4 /* Build configuration list for PBXNativeTarget "自动化重签名" */;
+			buildPhases = (
+				29CA7582299888C400A62ED4 /* Sources */,
+				29CA7583299888C400A62ED4 /* Frameworks */,
+				29CA7584299888C400A62ED4 /* Resources */,
+				29CA75A2299888EA00A62ED4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自动化重签名";
+			productName = "自动化重签名";
+			productReference = 29CA7586299888C400A62ED4 /* 自动化重签名.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29CA757E299888C400A62ED4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					29CA7585299888C400A62ED4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 29CA7581299888C400A62ED4 /* Build configuration list for PBXProject "自动化重签名" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29CA757D299888C400A62ED4;
+			productRefGroup = 29CA7587299888C400A62ED4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29CA7585299888C400A62ED4 /* 自动化重签名 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29CA7584299888C400A62ED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CA7599299888C600A62ED4 /* LaunchScreen.storyboard in Resources */,
+				29CA7596299888C600A62ED4 /* Assets.xcassets in Resources */,
+				29CA7594299888C500A62ED4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29CA75A2299888EA00A62ED4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# ${SRCROOT} 它是工程文件所在的目录\nTEMP_PATH=\"${SRCROOT}/Temp\"\n#资源文件夹\nASSETS_PATH=\"${SRCROOT}/APP\"\n#ipa包路径\nTARGET_IPA_PATH=\"${ASSETS_PATH}/*.ipa\"\n\n#新建Temp文件夹\nrm -rf \"${SRCROOT}/Temp\"\nmkdir -p \"${SRCROOT}/Temp\"\n\n#----------------------------------------\n# 1. 解压IPA到Temp下\nunzip -oqq \"$TARGET_IPA_PATH\" -d \"$TEMP_PATH\"\n# 拿到解压的临时的APP的路径\nTEMP_APP_PATH=$(set -- \"$TEMP_PATH/Payload/\"*.app;echo \"$1\")\n# echo \"路径是:$TEMP_APP_PATH\"\n\n\n#----------------------------------------\n# 2. 将解压出来的.app拷贝进入工程下\n# BUILT_PRODUCTS_DIR 工程生成的APP包的路径\n# TARGET_NAME target名称\nTARGET_APP_PATH=\"$BUILT_PRODUCTS_DIR/$TARGET_NAME.app\"\necho \"app路径:$TARGET_APP_PATH\"\n\nrm -rf \"$TARGET_APP_PATH\"\nmkdir -p \"$TARGET_APP_PATH\"\ncp -rf \"$TEMP_APP_PATH/\" \"$TARGET_APP_PATH\"\n\n\n\n#----------------------------------------\n# 3. 删除extension和WatchAPP.个人证书没法签名Extention\nrm -rf \"$TARGET_APP_PATH/PlugIns\"\nrm -rf \"$TARGET_APP_PATH/Watch\"\n\n\n\n#----------------------------------------\n# 4. 更新info.plist文件 CFBundleIdentifier\n#  设置:\"Set : KEY Value\" \"目标文件路径\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleIdentifier $PRODUCT_BUNDLE_IDENTIFIER\" \"$TARGET_APP_PATH/Info.plist\"\n\n\n#----------------------------------------\n# 5. 给MachO文件上执行权限\n# 拿到MachO文件的路径\nAPP_BINARY=`plutil -convert xml1 -o - $TARGET_APP_PATH/Info.plist|grep -A1 Exec|tail -n1|cut -f2 -d\\>|cut -f1 -d\\<`\n#上可执行权限\nchmod +x \"$TARGET_APP_PATH/$APP_BINARY\"\n\n\n\n#----------------------------------------\n# 6. 重签名第三方 FrameWorks\nTARGET_APP_FRAMEWORKS_PATH=\"$TARGET_APP_PATH/Frameworks\"\nif [ -d \"$TARGET_APP_FRAMEWORKS_PATH\"];\n    then\nfor FRAMEWORK in \"$TARGET_APP_FRAMEWORKS_PATH/\"*\ndo\n\n#签名\n/usr/bin/codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" \"$FRAMEWORK\"\ndone\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29CA7582299888C400A62ED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CA7591299888C500A62ED4 /* ViewController.m in Sources */,
+				29CA758B299888C400A62ED4 /* AppDelegate.m in Sources */,
+				29CA759C299888C600A62ED4 /* main.m in Sources */,
+				29CA758E299888C400A62ED4 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29CA7592299888C500A62ED4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29CA7593299888C500A62ED4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29CA7597299888C600A62ED4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29CA7598299888C600A62ED4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29CA759D299888C600A62ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29CA759E299888C600A62ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29CA75A0299888C600A62ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SV2V44GTRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "自动化重签名/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "soco.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29CA75A1299888C600A62ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SV2V44GTRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "自动化重签名/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "soco.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29CA7581299888C400A62ED4 /* Build configuration list for PBXProject "自动化重签名" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CA759D299888C600A62ED4 /* Debug */,
+				29CA759E299888C600A62ED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29CA759F299888C600A62ED4 /* Build configuration list for PBXNativeTarget "自动化重签名" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CA75A0299888C600A62ED4 /* Debug */,
+				29CA75A1299888C600A62ED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29CA757E299888C400A62ED4 /* Project object */;
+}
